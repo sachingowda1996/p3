@@ -25,5 +25,9 @@ urlpatterns = [
     path('third/',views.third,name="third"),
     path('fourth/',views.fourth,name="fourth"),
     path('fifth/',views.fifth,name="fifth"),
+    path("url_data/<name>",views.urls_data,name="urls_data"),
+    path("ab/<a>/<b>",views.ab,name="ab"),
+    path("great_2_number/<a>/<b>",views.great_2_number,name="great_2_number"),
+    path("reverse/<a>",views.reverse,name="reverse"),
 
 ]
